@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		64803B3D1BB14C20003EF5B1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 64803B3C1BB14C20003EF5B1 /* main.m */; };
+		64803B401BB14C20003EF5B1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 64803B3F1BB14C20003EF5B1 /* AppDelegate.m */; };
+		64803B431BB14C20003EF5B1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64803B421BB14C20003EF5B1 /* ViewController.m */; };
+		64803B461BB14C20003EF5B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64803B441BB14C20003EF5B1 /* Main.storyboard */; };
+		64803B481BB14C20003EF5B1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64803B471BB14C20003EF5B1 /* Images.xcassets */; };
+		64803B4B1BB14C20003EF5B1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64803B491BB14C20003EF5B1 /* LaunchScreen.xib */; };
+		64803B571BB14C20003EF5B1 /* SNS_Login_registerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 64803B561BB14C20003EF5B1 /* SNS_Login_registerTests.m */; };
+		64803B631BB14E15003EF5B1 /* LZXHttpDownload.m in Sources */ = {isa = PBXBuildFile; fileRef = 64803B621BB14E15003EF5B1 /* LZXHttpDownload.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		64803B511BB14C20003EF5B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 64803B2F1BB14C20003EF5B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64803B361BB14C20003EF5B1;
+			remoteInfo = "SNS_Login-register";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		64803B371BB14C20003EF5B1 /* SNS_Login-register.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SNS_Login-register.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		64803B3B1BB14C20003EF5B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64803B3C1BB14C20003EF5B1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		64803B3E1BB14C20003EF5B1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		64803B3F1BB14C20003EF5B1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		64803B411BB14C20003EF5B1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		64803B421BB14C20003EF5B1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		64803B451BB14C20003EF5B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		64803B471BB14C20003EF5B1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		64803B4A1BB14C20003EF5B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		64803B501BB14C20003EF5B1 /* SNS_Login-registerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SNS_Login-registerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		64803B551BB14C20003EF5B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64803B561BB14C20003EF5B1 /* SNS_Login_registerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SNS_Login_registerTests.m; sourceTree = "<group>"; };
+		64803B611BB14E15003EF5B1 /* LZXHttpDownload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZXHttpDownload.h; sourceTree = "<group>"; };
+		64803B621BB14E15003EF5B1 /* LZXHttpDownload.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZXHttpDownload.m; sourceTree = "<group>"; };
+		64803B641BB14E66003EF5B1 /* NetInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetInterface.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64803B341BB14C20003EF5B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64803B4D1BB14C20003EF5B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		64803B2E1BB14C20003EF5B1 = {
+			isa = PBXGroup;
+			children = (
+				64803B391BB14C20003EF5B1 /* SNS_Login-register */,
+				64803B531BB14C20003EF5B1 /* SNS_Login-registerTests */,
+				64803B381BB14C20003EF5B1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		64803B381BB14C20003EF5B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64803B371BB14C20003EF5B1 /* SNS_Login-register.app */,
+				64803B501BB14C20003EF5B1 /* SNS_Login-registerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64803B391BB14C20003EF5B1 /* SNS_Login-register */ = {
+			isa = PBXGroup;
+			children = (
+				64803B641BB14E66003EF5B1 /* NetInterface.h */,
+				64803B601BB14E15003EF5B1 /* HttpRequest */,
+				64803B3E1BB14C20003EF5B1 /* AppDelegate.h */,
+				64803B3F1BB14C20003EF5B1 /* AppDelegate.m */,
+				64803B411BB14C20003EF5B1 /* ViewController.h */,
+				64803B421BB14C20003EF5B1 /* ViewController.m */,
+				64803B441BB14C20003EF5B1 /* Main.storyboard */,
+				64803B471BB14C20003EF5B1 /* Images.xcassets */,
+				64803B491BB14C20003EF5B1 /* LaunchScreen.xib */,
+				64803B3A1BB14C20003EF5B1 /* Supporting Files */,
+			);
+			path = "SNS_Login-register";
+			sourceTree = "<group>";
+		};
+		64803B3A1BB14C20003EF5B1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				64803B3B1BB14C20003EF5B1 /* Info.plist */,
+				64803B3C1BB14C20003EF5B1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		64803B531BB14C20003EF5B1 /* SNS_Login-registerTests */ = {
+			isa = PBXGroup;
+			children = (
+				64803B561BB14C20003EF5B1 /* SNS_Login_registerTests.m */,
+				64803B541BB14C20003EF5B1 /* Supporting Files */,
+			);
+			path = "SNS_Login-registerTests";
+			sourceTree = "<group>";
+		};
+		64803B541BB14C20003EF5B1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				64803B551BB14C20003EF5B1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		64803B601BB14E15003EF5B1 /* HttpRequest */ = {
+			isa = PBXGroup;
+			children = (
+				64803B611BB14E15003EF5B1 /* LZXHttpDownload.h */,
+				64803B621BB14E15003EF5B1 /* LZXHttpDownload.m */,
+			);
+			path = HttpRequest;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		64803B361BB14C20003EF5B1 /* SNS_Login-register */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64803B5A1BB14C20003EF5B1 /* Build configuration list for PBXNativeTarget "SNS_Login-register" */;
+			buildPhases = (
+				64803B331BB14C20003EF5B1 /* Sources */,
+				64803B341BB14C20003EF5B1 /* Frameworks */,
+				64803B351BB14C20003EF5B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SNS_Login-register";
+			productName = "SNS_Login-register";
+			productReference = 64803B371BB14C20003EF5B1 /* SNS_Login-register.app */;
+			productType = "com.apple.product-type.application";
+		};
+		64803B4F1BB14C20003EF5B1 /* SNS_Login-registerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64803B5D1BB14C20003EF5B1 /* Build configuration list for PBXNativeTarget "SNS_Login-registerTests" */;
+			buildPhases = (
+				64803B4C1BB14C20003EF5B1 /* Sources */,
+				64803B4D1BB14C20003EF5B1 /* Frameworks */,
+				64803B4E1BB14C20003EF5B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64803B521BB14C20003EF5B1 /* PBXTargetDependency */,
+			);
+			name = "SNS_Login-registerTests";
+			productName = "SNS_Login-registerTests";
+			productReference = 64803B501BB14C20003EF5B1 /* SNS_Login-registerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		64803B2F1BB14C20003EF5B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = lzxuan;
+				TargetAttributes = {
+					64803B361BB14C20003EF5B1 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					64803B4F1BB14C20003EF5B1 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 64803B361BB14C20003EF5B1;
+					};
+				};
+			};
+			buildConfigurationList = 64803B321BB14C20003EF5B1 /* Build configuration list for PBXProject "SNS_Login-register" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 64803B2E1BB14C20003EF5B1;
+			productRefGroup = 64803B381BB14C20003EF5B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				64803B361BB14C20003EF5B1 /* SNS_Login-register */,
+				64803B4F1BB14C20003EF5B1 /* SNS_Login-registerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		64803B351BB14C20003EF5B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64803B461BB14C20003EF5B1 /* Main.storyboard in Resources */,
+				64803B4B1BB14C20003EF5B1 /* LaunchScreen.xib in Resources */,
+				64803B481BB14C20003EF5B1 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64803B4E1BB14C20003EF5B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64803B331BB14C20003EF5B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64803B431BB14C20003EF5B1 /* ViewController.m in Sources */,
+				64803B401BB14C20003EF5B1 /* AppDelegate.m in Sources */,
+				64803B631BB14E15003EF5B1 /* LZXHttpDownload.m in Sources */,
+				64803B3D1BB14C20003EF5B1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64803B4C1BB14C20003EF5B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64803B571BB14C20003EF5B1 /* SNS_Login_registerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		64803B521BB14C20003EF5B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64803B361BB14C20003EF5B1 /* SNS_Login-register */;
+			targetProxy = 64803B511BB14C20003EF5B1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		64803B441BB14C20003EF5B1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64803B451BB14C20003EF5B1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		64803B491BB14C20003EF5B1 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64803B4A1BB14C20003EF5B1 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		64803B581BB14C20003EF5B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		64803B591BB14C20003EF5B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		64803B5B1BB14C20003EF5B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "SNS_Login-register/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		64803B5C1BB14C20003EF5B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "SNS_Login-register/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		64803B5E1BB14C20003EF5B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SNS_Login-registerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SNS_Login-register.app/SNS_Login-register";
+			};
+			name = Debug;
+		};
+		64803B5F1BB14C20003EF5B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SNS_Login-registerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SNS_Login-register.app/SNS_Login-register";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		64803B321BB14C20003EF5B1 /* Build configuration list for PBXProject "SNS_Login-register" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64803B581BB14C20003EF5B1 /* Debug */,
+				64803B591BB14C20003EF5B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64803B5A1BB14C20003EF5B1 /* Build configuration list for PBXNativeTarget "SNS_Login-register" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64803B5B1BB14C20003EF5B1 /* Debug */,
+				64803B5C1BB14C20003EF5B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64803B5D1BB14C20003EF5B1 /* Build configuration list for PBXNativeTarget "SNS_Login-registerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64803B5E1BB14C20003EF5B1 /* Debug */,
+				64803B5F1BB14C20003EF5B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 64803B2F1BB14C20003EF5B1 /* Project object */;
+}
