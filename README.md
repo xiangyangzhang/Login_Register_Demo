@@ -10,7 +10,7 @@
 - 2.在哪里调用block(回调) -》主动方写
 - 3.实现block 代码块 传给 主动方 -》在被动方写
 
-###LZXHttpDownload.h
+###HttpDownload.h
  
  ``` 
  //定义block 类型  ->调用block的时候 通过 参数 把数据传给对方
@@ -46,7 +46,7 @@ typedef void (^ErrorBlock)(NSError *error);
 @end
  ```
 
-###LZXHttpDownload.m
+###HttpDownload.m
 ```
 #import "LZXHttpDownload.h"
 
